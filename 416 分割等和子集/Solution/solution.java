@@ -1,5 +1,5 @@
 
-class Solution {
+class Solution416 {
   static public boolean canPartition(int[] nums) {
     int sum = getSum(nums);
     // 奇数不可能拆成两子集和

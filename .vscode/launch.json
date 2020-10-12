@@ -6,10 +6,11 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Debug (Launch)",
+      "name": "Debug (Launch) - Current File",
       "request": "launch",
-      "mainClass": ""
+      "mainClass": "${file}"
     },
+
     {
       "name": "clang++ - 生成和调试活动文件",
       "type": "cppdbg",
