@@ -6,11 +6,17 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "Leetcode_3b33be66"
+    },
+    {
+      "type": "java",
       "name": "Debug (Launch) - Current File",
       "request": "launch",
       "mainClass": "${file}"
     },
-
     {
       "name": "clang++ - 生成和调试活动文件",
       "type": "cppdbg",

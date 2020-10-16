@@ -35,12 +35,6 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    String[] A = { "bella", "label", "roller" };
-
-    List<String> result = commonChars(A);
-    // List<String> result = new ArrayList<String>();
-    // char a = 'a';
-    // System.out.println((a + 1));
-    // System.out.println(A[0].charAt(1) - 'a');
+    // String[] A = { "bella", "label", "roller" };
   }
 }
