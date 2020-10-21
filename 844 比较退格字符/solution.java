@@ -86,14 +86,14 @@ class Solution {
 //   "j##yc##b"
 //  "j##yc##bs#srqpf#zantto###########"
 
-  public static void main(String[] args) {
-    String A = "j##yc##bs#srqpfzantto###########i#mwb",B = "j##yc##bs#srqpf#zantto###########i#mwb";
-    // String A = "ab##", B = "c#d#";
-    Solution s = new Solution();
-    if (s.backspaceCompare(A, B)) {
-      System.out.println("true");
-    } else {
-      System.out.println("false");
-    }
-  }
+  // public static void main(String[] args) {
+  //   String A = "j##yc##bs#srqpfzantto###########i#mwb",B = "j##yc##bs#srqpf#zantto###########i#mwb";
+  //   // String A = "ab##", B = "c#d#";
+  //   Solution s = new Solution();
+  //   if (s.backspaceCompare(A, B)) {
+  //     System.out.println("true");
+  //   } else {
+  //     System.out.println("false");
+  //   }
+  // }
 }
