@@ -27,7 +27,7 @@
 		35CA755F21FDC72B00794EF8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35CA755E21FDC72B00794EF8 /* main.c */; };
 		35CC170C21F31DD9007D6B6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35CC170B21F31DD9007D6B6B /* main.c */; };
 		35CC171721F342B6007D6B6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35CC171621F342B6007D6B6B /* main.c */; };
-		35F0B71622014BDD00A6F888 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35F0B71522014BDD00A6F888 /* main.c */; };
+		35F0B71622014BDD00A6F888 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35F0B71522014BDD00A6F888 /* main.cpp */; };
 		35F27BC2222564ED005BE4A1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35F27BC1222564ED005BE4A1 /* main.c */; };
 		35F27BCD22256BE2005BE4A1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35F27BCC22256BE2005BE4A1 /* main.c */; };
 /* End PBXBuildFile section */
@@ -284,7 +284,7 @@
 		35CC171421F342B6007D6B6B /* BinarySearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CC171621F342B6007D6B6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		35F0B71322014BDD00A6F888 /* 实验 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "实验"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F0B71522014BDD00A6F888 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		35F0B71522014BDD00A6F888 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		35F27BBF222564ED005BE4A1 /* 997. 找到小镇的法官 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "997. 找到小镇的法官"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F27BC1222564ED005BE4A1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		35F27BCA22256BE2005BE4A1 /* 额外题目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "额外题目"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -679,7 +679,7 @@
 		35F0B71422014BDD00A6F888 /* 实验 */ = {
 			isa = PBXGroup;
 			children = (
-				35F0B71522014BDD00A6F888 /* main.c */,
+				35F0B71522014BDD00A6F888 /* main.cpp */,
 			);
 			path = "实验";
 			sourceTree = "<group>";
@@ -1378,7 +1378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F0B71622014BDD00A6F888 /* main.c in Sources */,
+				35F0B71622014BDD00A6F888 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
