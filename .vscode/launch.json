@@ -4,26 +4,26 @@
   // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - Solution",
-      "request": "launch",
-      "mainClass": "Solution",
-      "projectName": "Leetcode_3b33be66"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - solution",
-      "request": "launch",
-      "mainClass": "solution",
-      "projectName": "Leetcode_3b33be66"
-    },
-    {
-      "type": "java",
-      "name": "Debug (Launch) - Current File",
-      "request": "launch",
-      "mainClass": "${file}"
-    },
+    // {
+    //   "type": "java",
+    //   "name": "CodeLens (Launch) - Solution",
+    //   "request": "launch",
+    //   "mainClass": "Solution",
+    //   "projectName": "Leetcode_3b33be66"
+    // },
+    // {
+    //   "type": "java",
+    //   "name": "CodeLens (Launch) - solution",
+    //   "request": "launch",
+    //   "mainClass": "solution",
+    //   "projectName": "Leetcode_3b33be66"
+    // },
+    // {
+    //   "type": "java",
+    //   "name": "Debug (Launch) - Current File",
+    //   "request": "launch",
+    //   "mainClass": "${file}"
+    // },
     {
       "name": "clang++ - 生成和调试活动文件",
       "type": "cppdbg",
