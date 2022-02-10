@@ -6,6 +6,8 @@ using namespace std;
 class Solution
 {
 public:
+    // this solution is best when multiple searches are performed in the same nums_list.
+    // however, there is still space for enhancement when search is only performed once.
     vector<int> twoSum(vector<int> &nums, int target)
     {
         unordered_map<int, int> m;
