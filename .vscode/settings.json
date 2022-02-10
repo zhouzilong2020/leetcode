@@ -13,7 +13,9 @@
     "unordered_map": "cpp",
     "utility": "cpp",
     "set": "cpp",
-    "__tree": "cpp"
+    "__tree": "cpp",
+    "map": "cpp",
+    "unordered_set": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "cmake.cmakePath": "/opt/homebrew/bin/cmake"
