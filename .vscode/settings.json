@@ -69,5 +69,11 @@
     "typeinfo": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
-  "cmake.cmakePath": "/opt/homebrew/bin/cmake"
+  "cmake.cmakePath": "/opt/homebrew/bin/cmake",
+  "go.testFlags": [
+    "-v"
+  ],
+  "cSpell.words": [
+    "nums"
+  ]
 }
