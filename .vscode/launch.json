@@ -5,6 +5,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch test function",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${fileDirname}/${fileBasename}",
+      "args": ["-test.run", "Test", "go.testFlags", "-v"]
+    },
+    {
+      "name": "LaunchGo",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${fileDirname}",
+      "env": {
+        "GOPATH": "/usr/local/go",
+        "GOROOT": "/usr/local/go"
+      },
+      "args": []
+      //"showLog": true
+    },
+    {
       "name": "clang++ - 生成和调试活动文件",
       "type": "lldb",
       "request": "launch",
