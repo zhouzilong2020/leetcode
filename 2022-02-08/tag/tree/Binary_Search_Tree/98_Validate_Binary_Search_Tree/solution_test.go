@@ -12,7 +12,7 @@ func traverse(root *TreeNode, last *int) bool {
 	}
 
 	traverse(root.Left, last)
-	if last >= root.Val {
+	if *last >= root.Val {
 		return false
 	}
 	*last = root.Val
@@ -22,10 +22,6 @@ func traverse(root *TreeNode, last *int) bool {
 }
 
 func isValidBST(root *TreeNode) bool {
-	last := nil
+	var last int
 	return traverse(root, &last)
-}
-
-func Test(t *testing.T) {
-
 }

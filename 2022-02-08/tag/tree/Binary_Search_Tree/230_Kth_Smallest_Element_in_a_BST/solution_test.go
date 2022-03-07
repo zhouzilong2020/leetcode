@@ -17,6 +17,7 @@ func traverse(root *TreeNode, k int) int {
 		return root.Val
 	}
 	traverse(root.Right, k)
+	return 0
 }
 
 func kthSmallest(root *TreeNode, k int) int {
